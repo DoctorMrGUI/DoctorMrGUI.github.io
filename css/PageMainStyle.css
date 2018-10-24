@@ -799,7 +799,7 @@ footer{
 	font-family: "Light";
 }
 .weichat:hover + .QR-Code{
-	display: block;
+	height: 88px;
 }
 .weichat:hover{
 	color: rgb(10, 147, 20);
@@ -811,14 +811,16 @@ footer{
 	color: rgb(234, 113, 110);
 }
 .QR-Code{
-	position: absolute;
-	display: none;
+	position: absolute;	
 	margin-top: 5px;
 	margin-left: -25px;
 	width: 88px;
-	height: 88px;
+	height: 0;
 	background: url(../img/canvas/QR-Code.png) center center no-repeat;
 	background-size: 88px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
 }
 /*底部第二部分*/
 .footer-second{

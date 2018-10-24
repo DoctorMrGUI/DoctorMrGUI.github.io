@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function(){
 	//分辨率变化
 	$(window).resize(function(){
 		if(screen.width > 768){

@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	alert("网站尚未完全显示，后续将逐渐增加！");
+	alert("网站尚未完全显示\n部分功能也在组建中\n微信中访问最佳\n后续将逐渐增加内容！");
 	//分辨率变化
 	$(window).resize(function(){
 		if(screen.width > 768){

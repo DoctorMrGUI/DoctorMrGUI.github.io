@@ -80,7 +80,7 @@ h4{
 	.logo{
 		position: fixed;
 		left: calc(50% - 14.5px);
-		padding: 0 3%;
+		padding: 0;
 	}
 	/*列表*/
 	.navheader{
@@ -420,6 +420,7 @@ h4{
 	/*logo*/
 	.logo{
 		padding-right: 40px;
+		padding-left: 3%;
 	}
 	/*购物篮_登陆_搜索*/
 	.input-search-div{
@@ -544,15 +545,12 @@ header{
 }
 /*logo*/
 .logo{
-	padding-left: 3%;
-}
-.logo{
 	display: block;
 	height: 45px;
 }
 .logo img{
 	height: 66%;
-	margin: 25.5% 0;
+	margin: 24% 0;
 }
 /*导航栏列表*/
 .navheader li{

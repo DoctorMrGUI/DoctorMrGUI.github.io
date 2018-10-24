@@ -79,7 +79,7 @@ h4{
 	/*logo*/
 	.logo{
 		position: fixed;
-		left: calc(50% - 78.6px);
+		left: calc(50% - 14.5px);
 		padding: 0 3%;
 	}
 	/*列表*/
@@ -463,6 +463,9 @@ h4{
 	.navheader li ul li{
 		border-bottom: 1px solid rgba(0,0,0,0.1);
 	}
+	.navheader li ul{
+		box-shadow: 0 11px 15px #00000061;
+	}
 	#uncoil-first-id,#uncoil-second-id{
 		position: fixed;
 		z-index: 2;
@@ -549,7 +552,7 @@ header{
 }
 .logo img{
 	height: 66%;
-	margin: 6.5% 0;
+	margin: 25.5% 0;
 }
 /*导航栏列表*/
 .navheader li{

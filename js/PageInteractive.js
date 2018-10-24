@@ -1,4 +1,5 @@
 $(document).ready(function(){
+	alert("网站尚未完全显示，后续将逐渐增加！");
 	//分辨率变化
 	$(window).resize(function(){
 		if(screen.width > 768){

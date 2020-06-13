@@ -1,0 +1,329 @@
+.nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+    display: flex;
+    min-width: 990px;
+    width: calc(100% - 80px);
+    padding: 0 40px;
+    height: 48px;
+    line-height: 48px;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,.3), 0 2px 6px 2px rgba(60,64,67,.15);
+    /* backdrop-filter: saturate(180%) blur(20px); */
+    background-color: rgba(255,255,255);
+    border-bottom: 1px solid #bdc1c6;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.nav-bar a {
+    color: #666;
+}
+
+.nav-bar-logo {
+    height: 100%;
+}
+
+.nav-bar-logo a {
+    display: block;
+    height: 100%;
+    font-family: Consolas;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-bar-logo img {
+    width: 28px;
+    height: auto;
+    vertical-align: middle;
+    padding-bottom: 4px;
+}
+
+.nav-bar-tool {
+    display: flex;
+}
+
+.nav-bar-ul {
+    display: flex;
+}
+
+.nav-bar-ul li {
+    padding: 0 10px;
+}
+
+.nav-bar-ul li a {
+    padding: 4px 0;
+    transition: all 0.3s;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-bar-ul li a:hover {
+    border-bottom: 2px solid #666;
+}
+
+.nav-bar-input {
+    display: flex;
+    margin: 10px 10px;
+    height: 28px;
+    border-radius: 25px;
+    transition: all 0.3s;
+    background-color: #e8eaed;
+    /* box-shadow: 0 1px 2px 0 rgba(60,64,67,.3),0 1px 3px 1px rgba(60,64,67,0.15); */
+}
+
+.nav-bar-input:hover {
+    background-color: #f1f3f4;
+}
+
+.nav-bar-input input {
+    padding: 0 12px;
+    border: none;
+    outline: none;
+    height: 28px;
+    background-color: transparent;
+}
+
+.main {
+    margin-top: 48px;
+    width: 100%;
+}
+
+.main-top {
+    display: flex;
+    padding: 0 5%;
+    width: 90%;
+    background: linear-gradient(225deg, #b1003c 0, #673ab7 100%);
+}
+
+.main-top-left, .main-top-right {
+    width: 50%;
+}
+
+.main-top-right {
+    justify-content: center;
+    display: flex;
+}
+
+.main-top-left {
+    color: #fff;
+}
+
+.main-top-h3 {
+    font: 400 32px/40px Google Sans,Noto Sans,Noto Sans JP,Noto Sans KR,Noto Naskh Arabic,Noto Sans Thai,Noto Sans Hebrew,Noto Sans Bengali,sans-serif;
+    letter-spacing: 0;
+    margin: 48px 0 24px;
+}
+
+.learn-more-box {
+    margin: 40px 0;
+}
+
+.learn-more {
+    background-color: transparent;
+    color: #fff;
+    -webkit-appearance: none;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    height: 36px;
+    margin: 0;
+    min-width: 36px;
+    outline: 0;
+    overflow: hidden;
+    text-decoration: none;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    -webkit-transition: background-color .2s;
+    transition: background-color .2s;
+    -o-transition: background-color .2s;
+    transition: background-color .2s;
+    transition: background-color .2s;
+    vertical-align: middle;
+    white-space: nowrap;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #dadce0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font: 500 14px/36px Google Sans,Noto Sans,Noto Sans JP,Noto Sans KR,Noto Naskh Arabic,Noto Sans Thai,Noto Sans Hebrew,Noto Sans Bengali,sans-serif;
+    line-height: 34px;
+    padding: 0 24px;
+}
+
+.learn-more:hover {
+    background-color: #fff;
+    color: #673ab7;
+}
+
+.main-top-img {
+    padding: 74px 0;
+}
+
+.main-top-img img {
+    border-radius: 50%;
+    box-shadow: 0 0 32px 0 rgba(255, 255, 255, 0.4);
+}
+
+.main-top-img span {
+    margin-top: 16px;
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    text-shadow:3px 3px 8px #141414;
+    font-weight: bold;
+    text-align: center;
+    font-family: Google Sans,Noto Sans,Noto Sans JP,Noto Sans KR,Noto Naskh Arabic,Noto Sans Thai,Noto Sans Hebrew,Noto Sans Bengali,sans-serif;
+}
+
+.main-end {
+    width: 100%;
+    min-height: 50px;
+    background-color: #f1f3f4;
+}
+
+.main-end h2 {
+    padding: 24px 0;
+    text-align: center;
+    font: 400 32px/40px Google Sans,Noto Sans,Noto Sans JP,Noto Sans KR,Noto Naskh Arabic,Noto Sans Thai,Noto Sans Hebrew,Noto Sans Bengali,sans-serif;
+}
+
+footer {
+    padding: 0 24px;
+    border-top: 1px solid #dadce0;
+    display: block;
+}
+
+.footer-etc {
+    display: flex;
+    padding: 0 1.5%;
+    height: 48px;
+    line-height: 48px;
+    background-color: #dadce0;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.guee-logo {
+    display: block;
+    height: 100%;
+    font-family: Consolas;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.guee-logo img {
+    width: 28px;
+    height: auto;
+    vertical-align: middle;
+    padding-bottom: 4px;
+}
+
+.footer-etc-title {
+    cursor: default;
+    padding: 0 18px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #666666;
+}
+
+.footer-etc-logo {
+    cursor: pointer;
+    width: 44px;
+    text-align: center;
+    display: block;
+    border: 1px solid transparent;
+    transition: border 0.2s ease-in-out;
+}
+
+.footer-etc-logo:hover {
+    border: 1px solid #666;
+}
+
+.footer-etc-logo::after {
+    font-size: 30px;
+}
+
+#footer-etc-logo-wechat::after {
+    content: '\F2E1';
+    font-family: 'nofree';
+    color: #1aad19;
+}
+
+#footer-etc-logo-wechat {
+    position: relative;
+}
+
+#footer-etc-logo-wechat:hover .GuEe-WX-QR-Code {
+    height: 100px;
+}
+
+.GuEe-WX-QR-Code {
+    position: absolute;
+    top: 100%;
+    left: calc(50% - 50px);
+    margin-top: 5px;
+    width: 100px;
+    height: 0;
+    background: url(../images/QR-Code.png) center center no-repeat;
+    background-size: 100px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
+    transition: all 0.2s ease-in-out;
+}
+
+#footer-etc-logo-github::after {
+    content: '\F09B';
+    font-family: 'nofree';
+}
+
+#footer-etc-logo-weibo {
+    color: #e6162d;
+}
+
+#footer-etc-logo-weibo::after {
+    content: '\F2E2';
+    font-family: 'nofree';
+}
+
+.footer-ul {
+    border-bottom: 1px solid #dadce0;
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.footer-li {
+    flex: 1;
+    margin: 24px 0;
+}
+
+.footer-li h3 {
+    cursor: default;
+    margin: 1px 0 4px;
+    font: 400 16px/26px Google Sans,Noto Sans,Noto Sans JP,Noto Sans KR,Noto Naskh Arabic,Noto Sans Thai,Noto Sans Hebrew,Noto Sans Bengali,sans-serif;
+}
+
+.footer-li ul {
+    padding: 0;
+}
+
+.footer-li ul li a {
+    color: #202124;
+    display: block;
+    padding: 8px 0;
+    font: 400 14px/16px Roboto,Noto Sans,Noto Sans JP,Noto Sans KR,Noto Naskh Arabic,Noto Sans Thai,Noto Sans Hebrew,Noto Sans Bengali,sans-serif;
+}
+
+.footer-li ul li a:hover {
+    color: #2196f3;
+}
+
+#copyright-id {
+    display: block;
+    padding: 12px 0;
+    color: #666;
+    font-size: 12px;
+}

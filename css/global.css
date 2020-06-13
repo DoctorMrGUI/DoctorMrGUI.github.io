@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: nofree;
+    src: url(./Icons.woff);
+}
+
+body{
+    min-width: 990px;
+    margin: 0px;
+    padding: 0px;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #262626;
+}
+
+.gui-select {
+    position: relative;
+}
+
+.gui-select button {
+    outline: none;
+    cursor: pointer;
+    background-color: #f1f3f4;
+    color: #3c4043;
+    max-width: 124px;
+    padding: 0 31px 0 15px;
+    border: 1px solid #dadce0;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    font: 500 14px/36px Google Sans,Noto Sans,Noto Sans JP,Noto Sans KR,Noto Naskh Arabic,Noto Sans Thai,Noto Sans Hebrew,Noto Sans Bengali,sans-serif;
+    line-height: 34px;
+    -webkit-appearance: none;
+    background: #fff url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='20' height='4' viewBox='0 0 20 4'><path d='M0,0l4,4l4-4H0z' fill='%23212121'/></svg>") no-repeat 100%;
+    transition: background-color .2s;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.gui-select button:hover {
+    background-color: #eee;
+}
+
+.gui-select button:active {
+    background-color: #e5e5e5;
+}

@@ -1,193 +1,119 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8" />
-		<title>GuEe</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="shortcut icon" href="img/canvas/favicon.ico"/>
-		<link rel="stylesheet" href="css/PageMainStyle.css" >
-		<script src="js/jquery-3.2.1.js" type="text/javascript"></script>
-		<script src="js/PageInteractive.js" type="text/javascript"></script>
-		<style type="text/css">
-			@media only screen and (min-width: 0px) and (max-width: 767px) {
-				header{
-					 border-bottom: 1px solid #dcdbdb;
-				}
-				.show_box{
-					width: 100%;
-				}
-			}
-			@media only screen and (min-width: 768px){
-				.show_box{
-					width: 50%;
-				}
-				center{
-					justify-content: space-between;
-					display: flex;
-					width: 90%;
-					margin-left:5%;
-				}
-				.footer-second{
-					justify-content: space-around;
-					display: flex;
-				}
-			}
-			.show a{
-				display: block;
-			}
-			.show_box a img{
-				width: 100%;
-				height: auto;
-			}
-		</style>
-	</head>
-	<body>
-		<div class="blackground" id="blackgroundid"></div>
-		<header class="header-class">
-			<span class="header-span">
-				<div class="trigger" id="trigger-id">
-					<span class="line"></span>
-					<span class="line"></span>
-					<span class="line"></span>
-				</div>
-				<a class="logo" href="https://doctormrgui.github.io/" title="访问doctormrgui.github.io">
-					<img src="img/canvas/logo.png" />
-				</a>
-				<nav class="navheader"style="top: 46px;">
-					<ul class="navline" id="navline-id">
-						<li class="list-first">
-							<a class="list-first-title" id="list-first-title-id" onselectstart="return false;">支持</a>
-							<ul class="uncoil-first" id="uncoil-first-id">
-								<li><a href="">游戏</a></li>
-								<li><a href="">C#高级语言</a></li>
-								<li><a href="">H5三套件</a></li>							
-								<li><a href="">美工</a></li>
-							</ul>
-						</li>
-						<li class="list-second">
-							<a class="list-second-title" id="list-second-title-id" onselectstart="return false;">教程</a>
-							<ul class="uncoil-second" id="uncoil-second-id">
-								<li><a href="">游戏开发</a></li>
-								<li><a href="">Web前端</a></li>
-								<li><a href="">Web App</a></li>	
-								<li><a href="">硬件研发</a></li>
-							</ul>
-						</li>
-					</ul>
-				</nav>
-			</span>
-		</header>
-		<center class="center" id="center-id">
-			<div class="show_box_first">
-				<div class="show_box">
-					<a href="" class="show_img">
-						<img src="img/UI/user.png" >
-					</a>
-					<div class="show_text">
-						<b>标题</b><span>说明解释</span>
-					</div>
-				</div>
-				<div class="show_box">
-					<a href="" class="show_img">
-						<img src="img/UI/user.png" >
-					</a>
-					<div class="show_text">
-						<b>标题</b><span>说明解释</span>
-					</div>
-				</div>
-				<div class="show_box">
-					<a href="" class="show_img">
-						<img src="img/UI/user.png" >
-					</a>
-					<div class="show_text">
-						<b>标题</b><span>说明解释</span>
-					</div>
-				</div>
-				<div class="show_box">
-					<a href="" class="show_img">
-						<img src="img/UI/user.png" >
-					</a>
-					<div class="show_text">
-						<b>标题</b><span>说明解释</span>
-					</div>
-				</div>
-			</div>
-			<div class="show_box_second">
-				<div class="show_box">
-					<a href="" class="show_img">
-						<img src="img/UI/user.png" >
-					</a>
-					<div class="show_text">
-						<b>标题</b><span>说明解释</span>
-					</div>
-				</div>
-				<div class="show_box">
-					<a href="" class="show_img">
-						<img src="img/UI/user.png" >
-					</a>
-					<div class="show_text">
-						<b>标题</b><span>说明解释</span>
-					</div>
-				</div>
-				<div class="show_box">
-					<a href="" class="show_img">
-						<img src="img/UI/user.png" >
-					</a>
-					<div class="show_text">
-						<b>标题</b><span>说明解释</span>
-					</div>
-				</div>
-				<div class="show_box">
-					<a href="" class="show_img">
-						<img src="img/UI/user.png" >
-					</a>
-					<div class="show_text">
-						<b>标题</b><span>说明解释</span>
-					</div>
-				</div>
-			</div>
-		</center>
-		<footer class="footer" id="footer-id">
-			<div class="footer-first">
-				<div class="logotitle">
-					<a class="logotitle-logo" onselectstart="return false;">&#xf306;</a>
-				</div>
-				<div class="div-hr-first"></div>
-				<ul>
-					<span>关注GuEe</span>
-					<li>
-						<a href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzUzOTMxMDY1Ng==&scene=126#wechat_redirect" class="weichat">&#xf1d7;</a>
-						<div class="QR-Code"></div>
-					</li>
-					<li><a href="https://www.facebook.com/" class="facebook" title="当前地区可能无法访问">&#xf30c;</a></li>
-					<li><a href="https://weibo.com/6793523782/profile?topnav=1&wvr=6&is_all=1&sudaref=weibo.com" class="weibo">&#xf33f;</a></li>
-				</ul>
-			</div>
-			<ul class="footer-second">
-				<li class="footer-second-title">
-					<h4>服务</h4>
-					<ul>
-						<li><a href="https://mp.weixin.qq.com/s/BvX2mrQGTQdFfdosSv9RWQ">3D打印</a></li>
-						<li><a href="">软件外包</a></li>
-						<li><a href="https://mp.weixin.qq.com/s/13dYxZZSvoB4kJIcok10AQs">无人机设计</a></li>
-						<li><a href="">微信小程序</a></li>
-					</ul>
-				</li>
-				<li class="footer-second-title">
-					<h4>下载</h4>
-					<ul>
-						<li><a href="">GuEe官方下载中心</a></li>
-						<li><a href="">游戏源码</a></li>
-						<li><a href="">桌面程序源码</a></li>
-						<li><a href="">Web App</a></li>
-						<li><a href="" title="您即将离开本站">在线编程</a></li>
-					</ul>
-				</li>
-			</ul>
-			<div class="div-hr-second"></div>
-			<div class="footer-third">
-				<section class="copyright">&copy; 2018 GuEe</section>
-			</div>
-		</footer>
-	</body>
+    <head>
+        <meta charset="utf-8" />
+        <title>GuEe</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="images/Logo/GuEe-Logo.svg"/>
+        <link rel="stylesheet" href="css/global.css"/>
+        <link rel="stylesheet" href="css/main.css"/>
+        <script src="core/supported_browser.js" type="text/javascript"></script>
+        <script src="core/render.js" type="text/javascript"></script>
+    </head>
+    <script src="core/init.js" type="text/javascript"></script>
+    <body>
+        <nav class="nav-bar">
+            <div class="nav-bar-logo">
+                <a href="https://guee.org/">
+                    <img src="images/Logo/GuEe-Logo.svg" alt="GuEe">
+                    <span class="nav-bar-logo-text">GuEe Open Source</span>
+                </a>
+            </div>
+            <div class="nav-bar-tool">
+                <ul class="nav-bar-ul">
+                    <li><a href="_/contributors.html">贡献者</a></li>
+                    <li><a href="">应用</a></li>
+                    <li><a href="">文档</a></li>
+                    <li><a href="">博客</a></li>
+                    <li><a href="">社区</a></li>
+                    <li><a href="">治理</a></li>
+                </ul>
+                <div class="nav-bar-input">
+                    <input type="text" placeholder="搜索"/>
+                </div>
+                <div class="gui-select">
+                    <button>简体中文</button>
+                </div>
+            </div>
+        </nav>
+        <div class="main">
+            <div class="main-top">
+                <div class="main-top-left">
+                    <h3 class="main-top-h3">GuEeOS Desktop 正式研发！</h3>
+                    <div>
+                        64-bit从零开发桌面操作系统，支持ARM64，x64架构。UEFI+GRUB+GPT多系统启动模式，ELF混合微内核，X-GEUI图形界面模式，GEFS文件系统，虚拟内存管理，磁盘管理，基本驱动及用户API和用户层应用。
+                    </div>
+                    <div class="learn-more-box">
+                        <a class="learn-more" href="https://github.com/GuEe-GUI/GuEeOS">了解更多</a>
+                    </div>
+                </div>
+                <div class="main-top-right">
+                    <div class="main-top-img">
+                        <img src="images/Temp/OS.png" width="128" height="128" alt="OS">
+                        <span>GuEe OS 0.0.1</span>
+                    </div>
+                </div>
+            </div>
+            <div class="main-end">
+                <h2>项目</h2>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-etc">
+                <a class="guee-logo" href="https://guee.org/">
+                    <img src="images/Logo/GuEe-Logo.svg" alt="GuEe">
+                </a>
+                <span class="footer-etc-title">关注GuEes</span>
+                <a class="footer-etc-logo" id="footer-etc-logo-wechat">
+                    <div class="GuEe-WX-QR-Code"></div>
+                </a>
+                <a class="footer-etc-logo" id="footer-etc-logo-github" href="https://github.com/GuEe-GUI"></a>
+                <a class="footer-etc-logo" id="footer-etc-logo-weibo" href="https://weibo.com/6793523782/profile?topnav=1&wvr=6&is_all=1&sudaref=weibo.com"></a>
+            </div>
+            <div>
+                <ul class="footer-ul">
+                    <li class="footer-li">
+                        <h3>项目</h3>
+                        <ul>
+                            <li><a href="#">GuEeOS</a></li>
+                            <li><a href="#">GuEeOS Lite</a></li>
+                            <li><a href="#">SmartWatch</a></li>
+                            <li><a href="#">FreeNLP</a></li>
+                            <li><a href="#">Jarvis</a></li>
+                            <li><a href="#">Driverless</a></li>
+                            <li><a href="#">ASUS Battery Health Charging</a></li>
+                            <li><a href="#">OpenBlockly</a></li>
+                        </ul>
+                    </li> 
+                    <li class="footer-li">
+                        <h3>开发文档</h3>
+                        <ul>
+                            <li><a href="#">GuEeOS</a></li>
+                            <li><a href="#">GuEeOS Lite</a></li>
+                            <li><a href="#">Linux embedded dev</a></li>
+                            <li><a href="#">STM32</a></li>
+                            <li><a href="#">Unity3d</a></li>
+                            <li><a href="#">OpenCV</a></li>
+                            <li><a href="#">C/C++</a></li>
+                            <li><a href="#">C#</a></li>
+                            <li><a href="#">SQL Lite</a></li>
+                            <li><a href="#">Javascript</a></li>
+                            <li><a href="#">Python3</a></li>
+                        </ul>
+                    </li>
+                    <li class="footer-li">
+                        <h3>发布</h3>
+                        <ul>
+                            <li><a href="#">GuEeOS</a></li>
+                            <li><a href="#">GuEeOS Lite</a></li>
+                            <li><a href="#">TaskbarMore</a></li>
+                            <li><a href="#">Timer</a></li>
+                            <li><a href="#">ImageHeader</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <span id="copyright-id"></span>
+        </footer>
+    </body>
 </html>
